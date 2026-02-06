@@ -50,33 +50,25 @@ This portfolio showcases the professional experience, projects, and skills of Va
 
 ## 📁 Folder Structure
 
-\`\`\`
-src/
-├── assets/
-│   ├── hero-bg.jpg           # AI-themed background
-│   ├── profile-photo.jpg     # Profile image
-│   ├── project-doc-ai.jpg    # Project 1 image
-│   └── project-ml-pipeline.jpg # Project 2 image
-├── components/
-│   ├── About.tsx
-│   ├── Background.tsx
-│   ├── Certifications.tsx
-│   ├── Contact.tsx
-│   ├── Education.tsx
-│   ├── Experience.tsx
-│   ├── Footer.tsx
-│   ├── Header.tsx
-│   ├── Hero.tsx
-│   ├── Preloader.tsx
-│   ├── Projects.tsx
-│   └── Skills.tsx
-├── pages/
-│   └── Index.tsx             # Main portfolio page
-├── hooks/
-├── lib/
-├── index.css                 # Design system & custom styles
-└── main.tsx
-\`\`\`
+```text
+.
+├── public/                # Static assets (images, PDF)
+├── src/
+│   ├── assets/            # Project-specific images
+│   ├── components/        # React components (Section-based)
+│   │   ├── ui/            # Reusable UI components (shadcn)
+│   │   ├── About.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   └── ...
+│   ├── pages/             # Page layouts
+│   ├── lib/               # Utility functions
+│   ├── index.css          # Global styles & Tailwind layers
+│   └── main.tsx           # Application entry point
+├── package.json           # Project dependencies
+├── tailwind.config.ts     # Tailwind configuration
+└── vite.config.ts         # Vite configuration
+```
 
 ## 🎨 Color Palette
 
